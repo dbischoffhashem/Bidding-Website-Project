@@ -1,0 +1,104 @@
+@charset "ISO-8859-1";
+.BuyMeLogo{
+	width:70px;
+	height:70px;
+	top: 0;
+    left: 0;
+    position: fixed;
+
+}
+/* Style the dropdown container */
+.dropdown {
+    position: absolute;
+    top: 8px;
+    right: 95px;
+    display: inline-block;
+    
+}
+
+/* Style the dropdown button */
+.dropbtn {
+    background-color: #262626;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+ 
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown content when the dropdown button is hovered over */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* New class for the solid colored bar */
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Make the bar extend across the whole width */
+    height: 85px; /* Same height as .BuyMeLogo */
+    background-color: #262626; /* Desired background color */
+    z-index: -1; /* Ensure the bar is on top of other elements */
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px; /* Add some spacing between the boxes */
+}
+
+.button-container {
+  border: 1px solid #ccc; /* Add a border to visually separate the boxes */
+  padding: 10px; /* Add some padding to the boxes */
+}
+
+.button-container button {
+  width: 100%; /* Make the button fill the container */
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.button-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+ 
+ .button-item {
+  width: 300px;
+  height: 300px;
+  background-color:#262626; 
+   
+}
+
+.button-item img {
+  width: 90%;
+  height: 90%;
+}
+
+ 
