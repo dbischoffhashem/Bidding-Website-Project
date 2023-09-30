@@ -18,7 +18,7 @@ public class PlacebidServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/cs336project";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "Taylorswift1322!";
+    private static final String DB_PASSWORD = "ENTER MYSQL PASSWORD HERE";
     
     private void placeAutomaticBids(Connection connection, String itemId, double currentBid, double incrementBy) throws SQLException {
         PreparedStatement automaticBidsStatement = connection.prepareStatement(

@@ -13,7 +13,7 @@ public class resetpasswordservlet extends HttpServlet {
    private static final long serialVersionUID = 1L;
    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/cs336project";
    private static final String DB_USER = "root";
-   private static final String DB_PASSWORD = "Taylorswift1322!";
+   private static final String DB_PASSWORD = "ENTER MYSQL PASSWORD HERE";
    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
        int userId = Integer.parseInt(request.getParameter("userId"));
        String newPassword = request.getParameter("newPassword");

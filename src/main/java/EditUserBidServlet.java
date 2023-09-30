@@ -13,7 +13,7 @@ public class EditUserBidServlet extends HttpServlet {
    private static final long serialVersionUID = 1L;
    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/cs336project";
    private static final String DB_USER = "root";
-   private static final String DB_PASSWORD = "Taylorswift1322!";
+   private static final String DB_PASSWORD = "ENTER MYSQL PASSWORD HERE";
    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
        int bidId = Integer.parseInt(request.getParameter("bidId"));
        double newBidAmount = Double.parseDouble(request.getParameter("newBidAmount"));
